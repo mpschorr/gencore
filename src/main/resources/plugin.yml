@@ -1,4 +1,6 @@
-name: PaperKotlin
+name: GenCore
+description: A simple, customizable gencore written in Kotlin
+author: jeelzzz
 version: '${version}'
-main: xyz.jeelzzz.paperkotlin.PaperKotlin
+main: xyz.jeelzzz.gencore.GenCorePlugin
 api-version: '1.20'

@@ -1,8 +1,8 @@
-package xyz.jeelzzz.paperkotlin
+package xyz.jeelzzz.gencore
 
 import org.bukkit.plugin.java.JavaPlugin
 
-class PaperKotlin : JavaPlugin() {
+class GenCorePlugin : JavaPlugin() {
     override fun onEnable() {
         logger.info("Kotlin Example plugin enabled!")
     }

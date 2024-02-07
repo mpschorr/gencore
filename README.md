@@ -1,18 +1,22 @@
-# paper-kt
-Paper plugin with Kotlin template.
+# GenCore
+A simple, customizable gencore written in Kotlin.
 
-## After cloning
-Remove the git folder (so it doesn't think it's tied to this repo)
-- Windows cmd: `rmdir /s /q .git`
-- Windows powershell: `rmdir .git -Recurse -Force`
-- Unix: `rm -rf .git`
+## Features
+- Basic gencore functionality
+- Gen slots & vouchers
+- Embedded SQLite database storage
+- Fully customizable messages
 
-Change these files:
-- `build.gradle` - Change the group
-- `settings.gradle` - Change the root project name
-- `build.bat` - Change the plugin, path (to where you want the jar to end up), and version if you changed that
-- `src/main/resources/plugin.yml` - Change the name and main class
-- `src/main/java/*` - Rename the `xyz.jeelzzz.paperkotlin` package and rename the main class
+## Installing
+Plugin jar downloads can be found on [the releases page](https://github.com/mpschorr/gencore/releases).
 
+## Support
+If you're having issues with the plugin or have any questions, join the [Discord Server](https://discord.gg/hupyGTG3bb) and ask in the appropriate channel.
 
-To build, run `build.bat`
+## Contributing
+Contributions are always welcome!
+
+If you make changes to this plugin which you think could be beneficial to others, please open a pull request to merge your changes to this repository!
+
+## Credits
+- None yet
